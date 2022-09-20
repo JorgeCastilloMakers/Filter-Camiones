@@ -32,6 +32,7 @@ html{
     justify-content: space-between;
     align-items: center;
     padding: 2%;
+    flex-wrap: wrap;
 }
 
 .container > aside{
@@ -45,6 +46,7 @@ html{
     align-items: center;
     gap: 30px;
     box-shadow: 10px 10px 16px -7px rgba(0,0,0,0.33);
+    flex: 1 1 50px;
 }
 .container > aside > div{
     width: 100%;
@@ -79,6 +81,7 @@ html{
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
+    flex: 1 1 550px;
 }
 
 .card{
