@@ -88,6 +88,7 @@ const filterOr = (brand, color) => {
     let filtroOr = trucks.filter(truck => truck.marca.toUpperCase() == brand.toUpperCase() || truck.color.toUpperCase() == color.toUpperCase())
 
     if (!brand || !color){
+        err = "";
         cardConteiner.innerHTML = "";
         filtroOr.map((el) => render(err, el.marca, el.color, el.precio, el.picture)).join("");
     }else {
